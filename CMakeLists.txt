@@ -17,6 +17,11 @@ if(CMAKE_EXPORT_COMPILE_COMMANDS AND EXISTS "${CMAKE_BINARY_DIR}/compile_command
   file(COPY "${CMAKE_BINARY_DIR}/compile_commands.json" DESTINATION "${CMAKE_SOURCE_DIR}")
 endif()
 
+# ----- Solution definition -----
+
+project("SkyPainterSolution")
+
 # ----- Subdirectories -----
 
 add_subdirectory("Vroom")
+add_subdirectory("Content")
