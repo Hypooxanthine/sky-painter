@@ -1,6 +1,6 @@
 #pragma once
 
-#include <ScriptApi/ScriptLibrary.h>
+#include <ScriptApi/ScriptApi.h>
 
 #include <Vroom/Scene/Components/ScriptComponent.h>
 
