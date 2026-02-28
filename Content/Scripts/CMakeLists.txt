@@ -26,5 +26,7 @@ if (MSVC)
     target_compile_options(SkyPainterScripts PRIVATE /MP)
 endif()
 
+set_scripts_library(SkyPainterScripts)
+
 # ----- Deps -----
 

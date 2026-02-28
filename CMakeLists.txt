@@ -23,5 +23,6 @@ project("SkyPainterSolution")
 
 # ----- Subdirectories -----
 
+set(VROOM_ENABLE_EXAMPLE_EDITOR OFF CACHE BOOL "" FORCE)
 add_subdirectory("Vroom")
 add_subdirectory("Content")
