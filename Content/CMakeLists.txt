@@ -8,4 +8,4 @@ add_subdirectory("Scripts")
 
 # ----- Resources -----
 
-add_resources_target(SkyPainterResources ${CMAKE_CURRENT_SOURCE_DIR}/Resources)
+set_game_rsc_dir(${CMAKE_CURRENT_SOURCE_DIR})

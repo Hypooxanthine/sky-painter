@@ -1,0 +1,211 @@
+{
+  "scene_nodes": [
+    {
+      "components": [
+        {
+          "params": [
+            {
+              "name": "Position",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Rotation",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Scale",
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ],
+          "type": "TransformComponent"
+        }
+      ],
+      "name": "Root",
+      "parent": null,
+      "type": "Root"
+    },
+    {
+      "components": [
+        {
+          "params": [
+            {
+              "name": "Position",
+              "value": [
+                -0.09175074100494385,
+                0.0,
+                0.01233816146850586
+              ]
+            },
+            {
+              "name": "Rotation",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Scale",
+              "value": [
+                20.0,
+                1.0,
+                20.0
+              ]
+            }
+          ],
+          "type": "TransformComponent"
+        },
+        {
+          "params": [
+            {
+              "name": "ResourceName",
+              "value": "Resources/Engine/Meshes/default_cube.obj"
+            },
+            {
+              "name": "CastsShadow",
+              "value": true
+            },
+            {
+              "name": "Visible",
+              "value": true
+            }
+          ],
+          "type": "MeshComponent"
+        }
+      ],
+      "name": "NewEntity_0",
+      "parent": "Root",
+      "type": "Entity"
+    },
+    {
+      "components": [
+        {
+          "params": [
+            {
+              "name": "Position",
+              "value": [
+                8.564821243286133,
+                12.893954277038574,
+                -1.9028658866882324
+              ]
+            },
+            {
+              "name": "Rotation",
+              "value": [
+                0.43461114168167114,
+                6.016908645629883,
+                0.45111083984375
+              ]
+            },
+            {
+              "name": "Scale",
+              "value": [
+                0.9999985098838806,
+                1.0,
+                0.9999994039535522
+              ]
+            }
+          ],
+          "type": "TransformComponent"
+        },
+        {
+          "params": [
+            {
+              "name": "Color",
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Intensity",
+              "value": 9.199999809265137
+            },
+            {
+              "name": "Radius",
+              "value": 43.20000076293945
+            },
+            {
+              "name": "SmoothRadius",
+              "value": 0.7900000214576721
+            },
+            {
+              "name": "ConstantAttenuation",
+              "value": 0.0
+            },
+            {
+              "name": "LinearAttenuation",
+              "value": 0.0
+            },
+            {
+              "name": "QuadraticAttenuation",
+              "value": 0.05999999865889549
+            }
+          ],
+          "type": "PointLightComponent"
+        }
+      ],
+      "name": "NewEntity_3",
+      "parent": "Root",
+      "type": "Entity"
+    },
+    {
+      "components": [
+        {
+          "params": [
+            {
+              "name": "Position",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Rotation",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Scale",
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ],
+          "type": "TransformComponent"
+        },
+        {
+          "params": [
+            {
+              "name": "ResourceName",
+              "value": "Resources/Engine/Cubemaps/DefaultSkybox/DefaultSkybox.json"
+            }
+          ],
+          "type": "SkyboxComponent"
+        }
+      ],
+      "name": "NewEntity_5",
+      "parent": "Root",
+      "type": "Entity"
+    }
+  ]
+}
